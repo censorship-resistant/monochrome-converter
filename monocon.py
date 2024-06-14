@@ -3,8 +3,8 @@ from PIL import Image
 import os
 
 # Define the directory containing the icons
-input_dir = '/home/ussr/.local/share/icons/Papirus/128x128/apps/'
-output_dir = '/home/ussr/.local/share/icons/mono/'
+input_dir = '/path/to/your/icontheme'
+output_dir = '/your/output/path'
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
